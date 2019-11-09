@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Christian M. Jensen</Authors>
+    <Company>cjpg.dk</Company>
+    <Product>Client 4 wordbook.cjpg.app API</Product>
+    <Description>An API client for wordbook.cjpg.app.</Description>
+    <Copyright>Christian M. Jensen</Copyright>
+    <AssemblyName>wordbook.cjpg.app.client</AssemblyName>
+    <RootNamespace>wordbook.cjpg.app.client</RootNamespace>
+    <OutputPath>..\Build\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Build\wordbook.cjpg.app.client.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>..\Build\wordbook.cjpg.app.client.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

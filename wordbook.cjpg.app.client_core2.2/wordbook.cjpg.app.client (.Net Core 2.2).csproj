@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>wordbook.cjpg.app.client</RootNamespace>
+    <AssemblyName>wordbook.cjpg.app.client</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Build</OutputPath>
+    <DocumentationFile>..\Build\wordbook.cjpg.app.client.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\Build</OutputPath>
+    <DocumentationFile>..\Build\wordbook.cjpg.app.client.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\wordbook.cjpg.app.client\Definition.cs" Link="Definition.cs" />
+    <Compile Include="..\wordbook.cjpg.app.client\Dictionaries.cs" Link="Dictionaries.cs" />
+    <Compile Include="..\wordbook.cjpg.app.client\Suggestions.cs" Link="Suggestions.cs" />
+    <Compile Include="..\wordbook.cjpg.app.client\WordbookClient.cs" Link="WordbookClient.cs" />
+  </ItemGroup>
+
+</Project>

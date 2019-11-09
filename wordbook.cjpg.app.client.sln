@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wordbook.cjpg.app.client (.Net std 2.0)", "wordbook.cjpg.app.client\wordbook.cjpg.app.client (.Net std 2.0).csproj", "{3A885CAD-9AE9-4AB6-BE08-FFD623858D20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordbookClient (CLI - Demo)", "WordbookClient\WordbookClient (CLI - Demo).csproj", "{1573EDD0-29A6-4B9F-9508-99A2531FA989}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wordbook.cjpg.app.client (.Net std 2.1)", "wordbook.cjpg.app.client_std2.1\wordbook.cjpg.app.client (.Net std 2.1).csproj", "{4870A138-694D-4F6C-8410-06429009119F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordbook.cjpg.app.client (.Net Core 3.0)", "wordbook.cjpg.app.client_core3.0\wordbook.cjpg.app.client (.Net Core 3.0).csproj", "{9D24D8B0-2F07-4B23-826D-540F96DDDD18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wordbook.cjpg.app.client (.Net Core 2.2)", "wordbook.cjpg.app.client_core2.2\wordbook.cjpg.app.client (.Net Core 2.2).csproj", "{27D3AF10-275D-4362-81D7-28DDC075320B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A885CAD-9AE9-4AB6-BE08-FFD623858D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A885CAD-9AE9-4AB6-BE08-FFD623858D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A885CAD-9AE9-4AB6-BE08-FFD623858D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A885CAD-9AE9-4AB6-BE08-FFD623858D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1573EDD0-29A6-4B9F-9508-99A2531FA989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1573EDD0-29A6-4B9F-9508-99A2531FA989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1573EDD0-29A6-4B9F-9508-99A2531FA989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1573EDD0-29A6-4B9F-9508-99A2531FA989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4870A138-694D-4F6C-8410-06429009119F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4870A138-694D-4F6C-8410-06429009119F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4870A138-694D-4F6C-8410-06429009119F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4870A138-694D-4F6C-8410-06429009119F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D24D8B0-2F07-4B23-826D-540F96DDDD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D24D8B0-2F07-4B23-826D-540F96DDDD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D24D8B0-2F07-4B23-826D-540F96DDDD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D24D8B0-2F07-4B23-826D-540F96DDDD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D3AF10-275D-4362-81D7-28DDC075320B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D3AF10-275D-4362-81D7-28DDC075320B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D3AF10-275D-4362-81D7-28DDC075320B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D3AF10-275D-4362-81D7-28DDC075320B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A263719C-945A-4A4A-A5B5-E0A14A2E1CCB}
+	EndGlobalSection
+EndGlobal
